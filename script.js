@@ -23,7 +23,9 @@ function lightMode() {
     textBox.style.backgroundColor = 'rgb(0 0 0 / 50%)';
     toggleIcon.children[0].textContent = 'Light Mode';
     toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
-    
+    image1.src = 'img/undraw_proud_coder_light.svg';
+    image1.src = 'img/undraw_feeling_proud_light.svg';
+    image1.src = 'img/undraw_conceptual_idea_light.svg';
   }
   
 
